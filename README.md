@@ -147,6 +147,9 @@ This Software Requirement Specification (SRS) document serves as a comprehensive
 ---
 ---
 
+## Flowchart
+![Image](flowchart.png)
+
 ## DFDs
 ![Image](https://github.com/multiverseweb/shop-and-opensource/blob/main/ngms-dfd0,1.png?raw=true)
 ![Image](ngms-dfd2.svg)
