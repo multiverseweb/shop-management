@@ -12,7 +12,7 @@ The essence of this project is to create a fully functional interactive collecti
 
 ## Introduction of the Numismatic Gallery Management System
 
-We will make this project by using C++ and text file handling. It will be a menu-driven program, in which we will use different user-defined functions for different actions that the user wants to perform. Some of the actions that the user will be able to perform are:
+We will make this project by using Python and text file handling. It will be a menu-driven program, in which we will use different user-defined functions for different actions that the user wants to perform. Some of the actions that the user will be able to perform are:
 <pre>
 ✯ View details                          ✯ Add details
 ✯ Delete details                        ✯ Admin mode  
@@ -55,7 +55,7 @@ Some of the functions that we will develop for the same purpose are as follows:
  [Home Page](https://multiverseweb.github.io/coinshop/) and  [Login Window](https://multiverseweb.github.io/login/) .
 
 > **1.5  Definitions, Acronyms, and Abbreviations:**
-- C++: The programming language used for software development.
+- Python: The programming language used for software development.
 - File Handling: The database management system used for data storage.
 - SRS: Software Requirement Specification.
 
