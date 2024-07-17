@@ -2,6 +2,13 @@
 
 Python & MySQL
 
+### Key Features of [NG_random_search.py](NG_random_search.py)
+| Feature | Description |
+|:--:|:--:|
+| Run Counter | It keeps a track of how many times the program has been executed since `13th May 2022`. It uses file handling on [run.txt](run.txt) to do so. |
+| Keyword Search | You don't need to enter name of country, denomination and currency type separately, you can give input in any order in a single statement. |
+
+
 ## Abstract
 
 In this project, we will try to develop an interface to facilitate the posting and fetching of information about currency which is part of our collection. The idea is to develop a program that will allow viewers of the collection to look for the currency they are interested in by entering the country it belongs to. In case the collector does not have any currency of that country, it will allow the user to add information about it from his side by filling details in fields like year, description, country, denomination and composition. In case the currency the user is looking for is present in the collection, the user will be presented with a choice whether he is looking for a coin or a banknote. Based on the user input, the interface will display all the relevant currency and the user will be able to search for a particular currency by entering its denomination. The user will be able to view the information of the currency and whether it is available for trading or not.
