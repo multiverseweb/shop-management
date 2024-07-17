@@ -2,7 +2,7 @@
 
 Python & MySQL
 
-### Key Features of [NG_random_search.py]('NG_random_search.py')
+### Key Features of [NG_random_search.py](NG_random_search.py)
 | Feature | Description |
 |:--:|:--:|
 | Run Counter | It keeps a track of how many times the program has been executed since `13th May 2022`. It uses file handling on [run.txt](run.txt) to do so. |
