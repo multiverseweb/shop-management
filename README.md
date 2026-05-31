@@ -155,11 +155,11 @@ This Software Requirement Specification (SRS) document serves as a comprehensive
 ---
 
 ## Flowchart
-![Image](https://github.com/multiverseweb/shop-and-opensource/blob/main/flowchart.png?raw=true)
+![Image](https://raw.githubusercontent.com/multiverseweb/shop-management/refs/heads/main/flowchart.png)
 
 ## DFDs
 ![Image](https://github.com/multiverseweb/shop-and-opensource/blob/main/ngms-dfd0,1.png?raw=true)
-![Image]((https://github.com/multiverseweb/shop-and-opensource/blob/main/ngms-dfd2.svg?raw=true))
+![Image](https://raw.githubusercontent.com/multiverseweb/shop-management/refs/heads/main/ngms-dfd2.svg)
 
 ## Conclusion
 
