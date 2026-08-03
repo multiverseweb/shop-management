@@ -8,6 +8,70 @@ Python & MySQL
 | Run Counter | It keeps a track of how many times the program has been executed since `13th May 2022`. It uses file handling on [run.txt](run.txt) to do so. |
 | Keyword Search | You don't need to enter name of country, denomination and currency type separately, you can give input in any order in a single statement. |
 
+## System Architecture
+
+```mermaid
+flowchart TD
+    subgraph User & Admin Roles
+        User[Customer / Collector]
+        Admin[System Administrator]
+    end
+
+    subgraph CLI & Menu System
+        Menu[Interactive Menu System]
+        Search[Keyword Search Engine - NG_random_search.py]
+        CartHandler[Shopping Cart Module]
+    end
+
+    subgraph Data & Storage Layer
+        MySQL[(MySQL Database)]
+        RunTxt[Run Counter - run.txt]
+        FileStorage[Local Data Files]
+    end
+
+    User --> Menu
+    Admin --> Menu
+    Menu --> Search
+    Menu --> CartHandler
+    Search <--> RunTxt
+    Search <--> MySQL
+    CartHandler <--> MySQL
+    Menu <--> FileStorage
+```
+
+## Installation & Quick Start
+
+### Prerequisites
+- Python 3.8+
+- MySQL Server 8.0+
+- `mysql-connector-python`
+
+### Setup Steps
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/multiverseweb/shop-management.git
+   cd shop-management
+   ```
+2. **Install Python MySQL Connector:**
+   ```bash
+   pip install mysql-connector-python
+   ```
+3. **Database Configuration:**
+   Configure your MySQL credentials in `NG_random_search.py` / `tejas_ngms.py`:
+   ```python
+   db = mysql.connector.connect(
+       host="localhost",
+       user="root",
+       password="your_mysql_password",
+       database="numismatic_gallery"
+   )
+   ```
+4. **Run the CLI Application:**
+   ```bash
+   python NG_random_search.py
+   # OR
+   python tejas_ngms.py
+   ```
 
 ## Abstract
 
