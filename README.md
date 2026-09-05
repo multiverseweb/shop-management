@@ -49,7 +49,7 @@ flowchart TD
 ### Setup Steps
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/multiverseweb/shop-management.git
+   git clone https://github.com/tjiuce/shop-management.git
    cd shop-management
    ```
 2. **Install Python MySQL Connector:**
@@ -123,7 +123,7 @@ Some of the functions that we will develop for the same purpose are as follows:
 - Complete transactions through the integrated shop feature.
 
 > **1.4 References:** The reference for user interface for this software may be taken from the websites:
- [Home Page](https://multiverseweb.github.io/coinshop/) and  [Login Window](https://multiverseweb.github.io/login/) .
+ [Home Page](https://tjiuce.github.io/coinshop/) and  [Login Window](https://tjiuce.github.io/login/) .
 
 > **1.5  Definitions, Acronyms, and Abbreviations:**
 - Python: The programming language used for software development.
@@ -219,11 +219,11 @@ This Software Requirement Specification (SRS) document serves as a comprehensive
 ---
 
 ## Flowchart
-![Image](https://raw.githubusercontent.com/multiverseweb/shop-management/refs/heads/main/flowchart.png)
+![Image](https://raw.githubusercontent.com/tjiuce/shop-management/refs/heads/main/flowchart.png)
 
 ## DFDs
-![Image](https://github.com/multiverseweb/shop-and-opensource/blob/main/ngms-dfd0,1.png?raw=true)
-![Image](https://raw.githubusercontent.com/multiverseweb/shop-management/refs/heads/main/ngms-dfd2.svg)
+![Image](https://github.com/tjiuce/shop-and-opensource/blob/main/ngms-dfd0,1.png?raw=true)
+![Image](https://raw.githubusercontent.com/tjiuce/shop-management/refs/heads/main/ngms-dfd2.svg)
 
 ## Conclusion
 
@@ -240,6 +240,6 @@ In essence, the Collection Management System, with its Python-MySQL synergy and 
 ---
 ---
 
-[Link to frontend.](https://multiverseweb.github.io/login/)
+[Link to frontend.](https://tjiuce.github.io/login/)
 ---
 Tejas' Codes :)
